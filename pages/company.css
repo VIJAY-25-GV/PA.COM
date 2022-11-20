@@ -1,0 +1,42 @@
+.company-btn{  
+    margin-left: 21%;
+    height:100%;
+}
+.company-btn button{
+    border:none;
+    padding:9px 0;
+    background-color: rgb(182, 198, 198);
+    color:white;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.company-btn button:hover{
+    background-color: aqua;
+}
+.company-h3{
+    color:red;
+
+}
+
+@media screen and (max-width:600px) {
+    
+    .company-btn{  
+        margin-left: 8%;
+        height:100%;
+    }
+    .company-btn button{
+        border:none;
+        padding:9px 0;
+        background-color: rgb(182, 198, 198);
+        color:white;
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+    .company-btn button:hover{
+        background-color: aqua;
+    }
+    .company-h3{
+        color:red;
+    
+    }
+}
